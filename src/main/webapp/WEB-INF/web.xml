@@ -1,0 +1,38 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Pos Java EAD - Desenvolvimento de Aplicacoes WEB - Sample App</display-name>
+
+  <servlet>
+    <servlet-name>ProdutoController</servlet-name>
+    <servlet-class>br.edu.unoesc.controller.ProdutoController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ListaProdutoController</servlet-name>
+    <servlet-class>br.edu.unoesc.controller.ListaProdutoController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ExcluirProdutoController</servlet-name>
+    <servlet-class>br.edu.unoesc.controller.ExcluirProdutoController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ProdutoController</servlet-name>
+    <url-pattern>/produto</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ListaProdutoController</servlet-name>
+    <url-pattern>/listarprodutos</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ExcluirProdutoController</servlet-name>
+    <url-pattern>/excluirproduto</url-pattern>
+  </servlet-mapping>
+
+</web-app>

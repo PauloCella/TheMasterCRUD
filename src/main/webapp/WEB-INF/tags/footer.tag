@@ -1,5 +1,5 @@
 <hr />
-<p class="text-center"> Desenvolvido por ---- </p>
+<p class="text-center"> Desenvolvido por Paulo José Cella </p>
 
 <script src="./resources/js/jquery-3.5.1.slim.min.js"> </script>
 <script src="./resources/js/bootstrap.min.js"> </script>

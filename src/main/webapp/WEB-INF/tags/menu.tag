@@ -20,6 +20,17 @@
           <a class="dropdown-item" href="<c:url value="/listarprodutos"/>" >Listar</a>
         </div>
       </li>
+
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cliente
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="<c:url value="/pessoa"/>" >Cadastrar</a>
+            <a class="dropdown-item" href="<c:url value="/listarpessoas"/>" >Listar</a>
+          </div>
+        </li>
+
     </ul>
   </div>
 </nav>

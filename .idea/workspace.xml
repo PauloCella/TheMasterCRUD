@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81651dbc-d6fb-4520-a455-4fc366f678b6" name="Default Changelist" comment="" />
+    <list default="true" id="81651dbc-d6fb-4520-a455-4fc366f678b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/unoesc/controller/pessoa/ExcluirPessoaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/unoesc/controller/pessoa/ListaPessoaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/unoesc/controller/pessoa/PessoaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/unoesc/model/entity/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/unoesc/model/service/PessoaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/pessoa/cadastro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/pessoa/lista.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/unoesc/controller/ExcluirProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/unoesc/controller/produto/ExcluirProdutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/unoesc/controller/ListaProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/unoesc/controller/produto/ListaProdutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/unoesc/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/unoesc/controller/produto/ProdutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/unoesc/model/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/unoesc/model/entity/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/footer.tag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/footer.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/menu.tag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/menu.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/produto/lista.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/produto/lista.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/unoesc/controller/ExcluirProdutoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/unoesc/controller/ListaProdutoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/unoesc/controller/ProdutoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/unoesc/model/entity/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/unoesc/model/service/ProdutoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/init/Main.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -22,16 +50,27 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/view" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.edu.unoesc.model.service" />
+      <recent name="br.edu.unoesc.model.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Academia\PosEmJava\Desenvolvimento de Aplicações Web\Trabalho final\PauloCellaTheMasterCRUD\src\main\webapp\view" />
+      <recent name="D:\Academia\PosEmJava\Desenvolvimento de Aplicações Web\Trabalho final\PauloCellaTheMasterCRUD\src\main\java\br\edu\unoesc\controller\pessoa" />
+      <recent name="D:\Academia\PosEmJava\Desenvolvimento de Aplicações Web\Trabalho final\PauloCellaTheMasterCRUD\src\main\java\br\edu\unoesc\controller\produto" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="localDeploy" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
       <option name="adminPort" value="8005" />
       <option name="contextPath" value="/" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
+      <option name="envOptions" />
       <option name="passParentEnvironmentVariables" value="true" />
       <option name="port" value="8080" />
       <option name="tomcatInfo">
@@ -70,27 +109,31 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1618192149143" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1618193098598">
+    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1618220250349">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1618193098598" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1618193098598">
+    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1618220250349" />
+    <state width="1877" height="218" key="GridCell.Tab.0.bottom" timestamp="1618222055956">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1618193098598" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1618193098598">
+    <state width="1877" height="218" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1618222055956" />
+    <state width="1877" height="218" key="GridCell.Tab.0.center" timestamp="1618222055956">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1618193098598" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1618193098598">
+    <state width="1877" height="218" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1618222055956" />
+    <state width="1877" height="218" key="GridCell.Tab.0.left" timestamp="1618222055956">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1618193098598" />
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1618192120297">
+    <state width="1877" height="218" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1618222055956" />
+    <state width="1877" height="218" key="GridCell.Tab.0.right" timestamp="1618222055956">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="218" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1618222055956" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1618219537557">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-1264" y="349" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1618191536691" />
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1618192120297" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1618219537557" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1618192270860">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

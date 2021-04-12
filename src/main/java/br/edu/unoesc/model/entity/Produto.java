@@ -1,6 +1,7 @@
 package br.edu.unoesc.model.entity;
 
 public class Produto {
+
     private Integer codigo;
     private String descricao;
     private String tipo;

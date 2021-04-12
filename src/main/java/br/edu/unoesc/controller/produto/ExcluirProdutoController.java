@@ -1,4 +1,4 @@
-package br.edu.unoesc.controller;
+package br.edu.unoesc.controller.produto;
 
 import br.edu.unoesc.model.service.ProdutoService;
 

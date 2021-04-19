@@ -1,6 +1,6 @@
 <%@ taglib tagdir="/WEB-INF/tags/" prefix="tag"%>
 <%@ page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <tag:maintemplate title="Pagina Inicial do Sistema">
 

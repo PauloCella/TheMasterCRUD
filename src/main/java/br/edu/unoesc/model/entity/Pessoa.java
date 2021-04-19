@@ -5,6 +5,7 @@ public class Pessoa {
     private Integer codigo;
     private String nome;
     private String telefone;
+    private String sexo;
 
     public Integer getCodigo() {
         return codigo;
@@ -28,5 +29,13 @@ public class Pessoa {
 
     public void setTelefone(String telefone) {
         this.telefone = telefone;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
     }
 }

@@ -27,6 +27,10 @@ public class ProdutoService {
         return PRODUTOS;
     }
 
+    public int contarProdutos() {
+        return PRODUTOS.size();
+    }
+
     public Optional<Produto> buscarProdutoPeloCodigo(Integer codigo){
         return PRODUTOS.stream().filter(p -> p.getCodigo().equals(codigo)).findFirst();
     }

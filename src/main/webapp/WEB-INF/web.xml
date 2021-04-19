@@ -2,9 +2,27 @@
  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
-<web-app>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4">
   <display-name>Pos Java EAD - Desenvolvimento de Aplicacoes WEB - The Master CRUD App</display-name>
 
+<!-- DASHBOARD MAPPING-->
+  <servlet>
+    <servlet-name>DashboardController</servlet-name>
+    <servlet-class>br.edu.unoesc.controller.dashboard.DashboardController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DashboardController</servlet-name>
+    <url-pattern>/dashboard</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>dashboard</welcome-file>
+  </welcome-file-list>
+<!-- FIM DASHBOARD MAPPING-->
 
 <!--  PRODUTO MAPPING-->
   <servlet>

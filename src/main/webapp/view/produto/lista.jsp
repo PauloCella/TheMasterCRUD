@@ -1,6 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%@ taglib tagdir="/WEB-INF/tags/" prefix="tag"%>
-<%@ taglib uri="http://java.sun.com/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
 
 <tag:maintemplate title="Lista de produtos">
 
@@ -17,11 +17,11 @@
         <tbody>
             <c:forEach var="produto" items="${produtos}">
                 <tr>
-                    <td><c:out value="${produto.codigo}" /></td>
-                    <td><c:out value="${produto.descricao}" /></td>
-                    <td><c:out value="${produto.tipo}" /></td>
-                    <td><a href="<c:url value="/produto?codigo=${produto.codigo}"/>">Editar</a></td>
-                    <td><a href="<c:url value="/excluirproduto?codigo=${produto.codigo}"/>">Excluir</a></td>
+                    <td>${produto.codigo}</td>
+                    <td>${produto.descricao}</td>
+                    <td>${produto.tipo}</td>
+                    <td><a href="/produto?codigo=${produto.codigo}">Editar</a></td>
+                    <td><a href="/excluirproduto?codigo=${produto.codigo}">Excluir</a></td>
                  </tr>
             </c:forEach>
         </tbody>

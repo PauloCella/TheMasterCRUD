@@ -33,6 +33,7 @@ public class PessoaController extends HttpServlet {
         pessoa.setCodigo(converteCodigoParaInteger(req.getParameter("codigo")));
         pessoa.setNome(req.getParameter("nome"));
         pessoa.setTelefone(req.getParameter("telefone"));
+        pessoa.setSexo(req.getParameter("sexo"));
         pessoaService.inserirAlterarPessoa(pessoa);
         resp.sendRedirect("/listarpessoas");
     }

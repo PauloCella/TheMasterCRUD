@@ -1,4 +1,4 @@
-<%@ taglib uri="http://java.sun.com/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
 <%@ attribute name="title" required="true"%>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">

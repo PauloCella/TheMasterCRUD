@@ -27,6 +27,10 @@ public class PessoaService {
         return PESSOAS;
     }
 
+    public int contarPessoas(){
+        return PESSOAS.size();
+    }
+
     public Optional<Pessoa> buscarPessoaPeloCodigo(Integer codigo){
         return PESSOAS.stream().filter(p -> p.getCodigo().equals(codigo)).findFirst();
     }
